@@ -8,7 +8,7 @@
   </parent>
   <groupId>org.thoughtslive.jenkins.plugins</groupId>
   <artifactId>hubot-steps</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1-SNAPSHOT</version>
   <packaging>hpi</packaging>
   <name>ThoughtsLive: Hubot Pipeline Steps</name>
   <description>Hubot Pipeline Steps</description>
@@ -55,7 +55,7 @@
     <connection>scm:git:git://github.com/thoughtslive/${project.artifactId}.git</connection>
     <developerConnection>scm:git:git@github.com:thoughtslive/${project.artifactId}.git</developerConnection>
     <url>http://github.com/thoughtslive/${project.artifactId}</url>
-    <tag>hubot-steps-1.0.0</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <distributionManagement>
